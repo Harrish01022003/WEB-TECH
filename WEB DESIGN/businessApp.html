@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">  <!-- character set, page description, keywords, author of the document, and viewport settings -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Experiment-4</title>
+
+    <style>
+      .top{
+        margin: 20px;
+      }
+
+      * {
+        box-sizing: border-box;
+        }
+
+      .row {
+        display: flex;
+        margin-left:-5px;
+        margin-right:-5px;
+      }
+        
+      .column {
+        flex: 50%;
+        padding: 5px;;
+      }
+
+      .table-left
+
+        {
+            border: 1px solid black;
+          border-collapse: collapse;
+          padding: 6px;
+          margin-left: 10px;
+          border-color: #36e2f5;
+          width: 75%;
+          border-spacing: 5px;     
+      }
+
+      td{
+        
+        padding: 6px;
+        width: 5px;
+
+      }
+    </style>
+
+  </head>
+
+  <body style="background-color:black;>
+    <script >
+        function color()
+    
+    
+    <div class="top">
+      <img src = "D:\WEB TECH LAB\WEB DESIGN\logo.jpg" width="200" height="120" align="left">
+        <div class=" bg-light align-middle text-right ">
+        
+
+        <a href="https://www.google.com" target = "_blank"><img src = "home.jpg" width="50" height="40"></a>
+        <a href="https://www.twitter.com/" target = "_blank"><img src = "twitter.png" width="50" height="40"></a>
+        <a href="https://www.facebook.com/" target = "_blank"><img src = "facebook.png" width="50" height="40"></a>
+        <a href="" target = "_blank"><img src = "gmail.jpg" width="50" height="40">
+        
+    
+        <input type="text" placeholder="Search Here...">
+        <button type ="button" class="'btn btn-primary " >submit</button>
+
+        </div>
+    </div><br><br>
+      
+    <!--id attribute is used to point to a specific style declaration in a style sheet-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+      </ol>
+    
+      <!-- Wrapper for slides --> 
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="D:\WEB TECH LAB\WEB DESIGN\balogo.png" width="1300" height="900">
+        </div>
+      </div>
+    
+
+    </div><br>
+
+    <div class="row">
+      <div class="column">
+        <table class="table-left">
+          <tr>
+            <td colspan="4" align="center"><h1 class="text-primary" >Business Application Form</h1></td>
+          </tr>
+          <tr>
+              <td colspan="2">Business Owner Name</td>
+              <td colspan="2"></td>
+          </tr>
+          <tr>
+              <td colspan="2"><input type="email" placeholder="First name" size="25"></td>
+              <td colspan="2"><input type="password" placeholder="Last name" size="25"></td>
+            </tr>
+            <tr>
+                <td colspan="4">Business Name</td>
+                
+            </tr>
+            <tr>
+              <td colspan="4"><input type="text" placeholder="Name of the business" size="57"></td>
+  
+            </tr>
+  
+            <tr>
+              <td colspan="4">Contact number</td>
+              
+            </tr>
+            <tr>
+              <td colspan="4"><input type="text" placeholder="+911234567890" size="57"></td>
+  
+            </tr>
+            <tr>
+              <td colspan="2">City</td>
+              <td>State</td>
+              <td>Zip</td>
+            </tr>
+            <tr>
+              <td colspan="2"><input type="text" size="25"></td>
+              <td> <select name="cars" id="cars">
+                <option>Tamil Nadu</option>
+                <option>Kerala</option>
+                <option>Andhra Pradesh</option>
+                <option>Delhi</option>
+                <option>Karnataka</option>
+                <option>UP</option>
+                <option>Gujarat</option>
+                <option>Mumbai</option>
+                </select></td>
+              <td><input type="text" size="6"></td>
+            </tr>
+            <tr>
+              <td colspan="4"><input type="checkbox">Check me out</td>
+            </tr>
+  
+            
+              <button><a href="page2.html">Submit </a></button>
+              
+            
+        </table> 
+    </div>
+    
+</body>
+</html>
+
